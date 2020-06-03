@@ -1,0 +1,10 @@
+#include <iostream.h>
+
+void main()
+{
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+    cin >> firstNumber >> secondNumber;
+    productOfTwoNumbers = firstNumber * secondNumber;
+    cout << "Product = " << productOfTwoNumbers;    
+}
